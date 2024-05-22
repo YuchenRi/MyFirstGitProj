@@ -20,4 +20,4 @@ insertTable_query = """
 INSERT INTO emp(name, address, contact, post) VALUES(" Aashis, KTM, 9876349820, Programmer ") 
 """
 Cursor.execute(insertTable_query)
-
+sqliteConnection.close()
